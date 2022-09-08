@@ -6,7 +6,7 @@ import productsList from './data/items.json'
 const App = () => (
     <>
         <MainTemplate>
-            <Container maxWidth="sm">
+            <Container maxWidth="lg">
                 <Grid container spacing={{ mobile: 1, tablet: 4 }}>
                     <Grid item mobile={12} tablet={8}>
                         <ProductCard
