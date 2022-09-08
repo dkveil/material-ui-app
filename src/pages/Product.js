@@ -1,4 +1,4 @@
-import { Container, Typography, Box, Paper, BottomNavigation, BottomNavigationAction } from "@mui/material";
+import { Container, Typography, Box, Paper, BottomNavigation } from "@mui/material";
 import { Accordian, ImageCollage, Modal } from "../components";
 
 const itemData = [
