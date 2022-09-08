@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 import { Paper, Typography, Box, Rating } from '@mui/material'
 import ClassOutlinedIcon from "@mui/icons-material/ClassOutlined";
 import { formatCurrency } from '../../utils/formatCurrency';
@@ -6,10 +7,17 @@ import { formatCurrency } from '../../utils/formatCurrency';
 const ProductCard = ({name, image, category, rate, opinions, price}) => {
     return (
         <Paper elevation={8}>
-            <img className="productcard__img" src={image} alt={name} />
+            <Link to={`/${name}`} style={{ all: "unset", cursor: "pointer" }}>
+                <img className="productcard__img" src={image} alt={name} />
+            </Link>
             <Box paddingX={1}>
                 <Typography variant="h6" component="h2">
-                    {name}
+                    <Link
+                        to={`/${name}`}
+                        style={{ all: "unset", cursor: "pointer" }}
+                    >
+                        {name}
+                    </Link>
                 </Typography>
                 <Box
                     sx={{

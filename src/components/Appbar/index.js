@@ -1,4 +1,5 @@
 import * as React from "react";
+import { Link } from "react-router-dom";
 import { styled, alpha } from "@mui/material/styles";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
@@ -75,7 +76,9 @@ const SearchAppBar = () => {
                             display: { xs: "none", sm: "block" },
                         }}
                     >
-                        MUI
+                        <Link to="/" style={{ all: 'unset', cursor: 'pointer'}}>
+                            MUI APP
+                        </Link>
                     </Typography>
                     <Search>
                         <SearchIconWrapper>

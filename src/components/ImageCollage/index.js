@@ -8,7 +8,7 @@ const ImageCollage = ({itemData}) => {
         <Box sx={{ width: 500, height: 325, overflowY: "scroll" }}>
             <ImageList variant="masonry" cols={3} gap={8}>
                 {itemData.map((item) => (
-                    <ImageListItem key={item.img}>
+                    <ImageListItem key={item.title}>
                         <img
                             src={`${item.img}?w=248&fit=crop&auto=format`}
                             srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
