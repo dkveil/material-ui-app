@@ -2,36 +2,53 @@
     {
         "id": 1,
         "name": "headphones",
+        "category": "Accesories",
+        "rate": 4.5,
+        "opinions": 210,
         "price": 50,
         "image": "/images/headphones.jpg"
     },
     {
         "id": 2,
         "name": "iphone",
+        "category": "Phones",
+        "rate": 3.5,
+        "opinions": 41,
         "price": 400,
         "image": "/images/iphone.jpg"
     },
     {
         "id": 3,
         "name": "laptop",
+        "category": "PC",
+        "rate": 4,
         "price": 640,
         "image": "/images/laptop.jpg"
     },
     {
         "id": 4,
         "name": "macbook",
+        "category": "PC",
+        "rate": 3.5,
+        "opinions": 41,
         "price": 940,
         "image": "/images/macbook.jpg"
     },
     {
         "id": 5,
         "name": "samsung",
+        "category": "Phones",
+        "rate": 5,
+        "opinions": 4231,
         "price": 310.11,
         "image": "/images/samsung.jpg"
     },
     {
         "id": 6,
         "name": "tv",
+        "category": "TV",
+        "rate": 3.5,
+        "opinions": 431,
         "price": 310,
         "image": "/images/tv.jpg"
     }
