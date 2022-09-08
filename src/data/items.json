@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "headphones",
+        "price": 50,
+        "image": "/images/headphones.jpg"
+    },
+    {
+        "id": 2,
+        "name": "iphone",
+        "price": 400,
+        "image": "/images/iphone.jpg"
+    },
+    {
+        "id": 3,
+        "name": "laptop",
+        "price": 640,
+        "image": "/images/laptop.jpg"
+    },
+    {
+        "id": 4,
+        "name": "macbook",
+        "price": 940,
+        "image": "/images/macbook.jpg"
+    },
+    {
+        "id": 5,
+        "name": "samsung",
+        "price": 310.11,
+        "image": "/images/samsung.jpg"
+    },
+    {
+        "id": 6,
+        "name": "tv",
+        "price": 310,
+        "image": "/images/tv.jpg"
+    }
+]
