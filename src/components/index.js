@@ -1,2 +1,5 @@
 export { default as ProductCard } from './ProductCard'
 export { default as SearchAppBar } from './Appbar'
+export { default as ImageCollage } from './ImageCollage'
+export { default as Accordian } from './Accordian'
+export { default as Modal } from './Modal'
