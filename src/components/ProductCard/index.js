@@ -6,7 +6,7 @@ import { formatCurrency } from '../../utils/formatCurrency';
 
 const ProductCard = ({name, image, category, rate, opinions, price}) => {
     return (
-        <Paper elevation={8}>
+        <Paper elevation={8} >
             <img
                 src={image}
                 alt={name}

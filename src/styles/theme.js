@@ -21,7 +21,7 @@ export const theme = createTheme({
                     }
                 }
             ]
-        }
+        },
     },
     breakpoints: {
         values: {
