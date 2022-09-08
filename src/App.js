@@ -6,20 +6,20 @@ const App = () => (
     <>
         <MainTemplate>
             <Container>
-                <Grid container spacing={4}>
-                    <Grid item xs={8}>
+                <Grid container spacing={{mobile: 1, tablet: 4}}>
+                    <Grid item mobile={12} tablet={8}>
                         <ProductCard />
                     </Grid>
-                    <Grid item xs={4}>
+                    <Grid item mobile={6} tablet={4}>
                         <ProductCard />
                     </Grid>
-                    <Grid item xs={4}>
+                    <Grid item mobile={6} tablet={4}>
                         <ProductCard />
                     </Grid>
-                    <Grid item xs={4}>
+                    <Grid item mobile={6} tablet={4}>
                         <ProductCard />
                     </Grid>
-                    <Grid item xs={4}>
+                    <Grid item mobile={6} tablet={4}>
                         <ProductCard />
                     </Grid>
                 </Grid>
